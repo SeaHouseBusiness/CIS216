@@ -8,6 +8,7 @@ h1 { background-color: #ccaa66;
 	font-size: 3em;
 	text-align: center; 
 	line-height: 200%; }
+
 	
 footer { background-color: #ccaa66;
 	   color: #000000;
@@ -36,7 +37,9 @@ h3 { background-color: #ccaa66;
 	padding-left: 10px;
 	padding-bottom: 5px; }
 
-main { padding: 25px; }
+main { padding: 25px;
+font-weight: lighter;
+}
 
 .details { padding-left: 20%;
 		   padding-right: 20%; }
