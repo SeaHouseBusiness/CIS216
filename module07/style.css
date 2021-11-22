@@ -1,8 +1,7 @@
-body {
-	background-color: #ffefa8;
-	color: #330000; 
-	font-family: Tahoma, Verdana, sans-serif; 
-}
+body { background-color: #ffffcc;
+	  background-image: url(background.gif);
+	  color: #330000; 
+	  font-family: Tahoma, Verdana, sans-serif; }
 h1 { 
 	background-color: #ccaa66;
 	color: #000000; 
