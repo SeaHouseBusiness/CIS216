@@ -21,6 +21,7 @@ footer { background-color: #ccaa66;
 	   text-align: center;
 	   line-height: 100%;
 	   padding: 10px; }
+
 #pagelink { text-align: right; 
 font-size: 1.5em;
 }
@@ -32,6 +33,7 @@ font-size: 1.5em;
 		   min-width: 700px;
 		   max-width: 1024px;
 		   box-shadow: 3px 3px 3px; }
+
 h2 { background-color: #ffffcc;
 	font-size: 1.2em;
 	padding-left: 10px;
