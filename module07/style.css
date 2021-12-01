@@ -16,7 +16,9 @@ footer { background-color: #ccaa66;
 	   text-align: center;
 	   padding: 10px; }
 
-nav { text-align: center; }
+nav { text-align: center; 
+font-size: 1.2em;
+}
 
 #wrapper { background-color: #ffffcc;
 		   margin-left: auto;
