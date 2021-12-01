@@ -8,7 +8,9 @@ h1 { background-color: #ccaa66;
 	font-size: 3em;
 	text-align: center; 
 	line-height: 200%; }
-
+a { 
+	font-size: 3em;
+  }
 	
 footer { background-color: #ccaa66;
 	   color: #000000;
