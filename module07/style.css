@@ -26,8 +26,9 @@ nav {
 	text-align: center; 
 }
 
-#pagelink { text-align: center; 
-font-size: 1.5em;
+#pagelink { 
+	text-align: center; 
+	font-size: 1.5em;
 }
 
 #wrapper { background-color: #ffffcc;
