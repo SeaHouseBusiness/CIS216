@@ -22,7 +22,8 @@ footer { background-color: #ccaa66;
 	   line-height: 100%;
 	   padding: 10px; }
 
-div { text-align: center;
+nav { 
+	text-align: center; 
 }
 
 #pagelink { text-align: center; 
