@@ -22,7 +22,10 @@ footer { background-color: #ccaa66;
 	   line-height: 100%;
 	   padding: 10px; }
 
-#pagelink { text-align: right; 
+div { text-align: center;
+}
+
+#pagelink { text-align: center; 
 font-size: 1.5em;
 }
 
