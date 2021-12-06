@@ -13,6 +13,7 @@ ul {
   width: 60px;
   display: table;
   margin: 0 auto;
+  white-space: nowrap;
 }
 }
 
