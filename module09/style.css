@@ -7,6 +7,17 @@ float: left;
  margin: 0 15px 0 0;
 }
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 60px;
+}
+
+li a {
+  display: block;
+}
+
 h1 { background-color: #ccaa66;
 	margin: 0 auto;
 	color: #000000; 
@@ -23,7 +34,8 @@ footer { background-color: #ccaa66;
 	   padding: 10px; }
 
 nav { 
-	text-align: center; 
+	float: left;
+	width: 90px;
 }
 
 #pagelink { 
@@ -31,10 +43,10 @@ nav {
 	font-size: 1.5em;
 }
 
-#wrapper { background-color: #ffffcc;
+#wrapper { background-color: #221713;
 		   margin-left: auto;
 		   margin-right: auto;
-		   width: 80%; 
+		   width: "170"; 
 		   min-width: 700px;
 		   max-width: 1024px;
 		   box-shadow: 3px 3px 3px; }
@@ -52,6 +64,7 @@ h3 { background-color: #ccaa66;
 
 main { padding: 25px;
 font-weight: lighter;
+margin-left: 100px;
 }
 
 .details { padding-left: 20%;
