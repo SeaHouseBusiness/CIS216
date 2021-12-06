@@ -45,13 +45,9 @@ nav {
 .column {
   float: left;
   padding: 10px;
-  height: 700px;
-}
-
-.left {
+  height: 750px;
   width: 170px;
 }
-
 
 #pagelink { 
 	text-align: center; 
