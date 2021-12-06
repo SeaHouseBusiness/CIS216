@@ -6,10 +6,6 @@ body { background-color: #ffffcc;
 float: left;    
  margin: 0 15px 0 0;
 }
-#banner{
-float: right;
-margin: 25px 60px 250px 170px;
-}
 ul {
   list-style-type: none;
   padding: 0;
