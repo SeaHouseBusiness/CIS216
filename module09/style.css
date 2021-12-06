@@ -9,9 +9,11 @@ float: left;
 
 ul {
   list-style-type: none;
-  margin: 0;
   padding: 0;
   width: 60px;
+  display: table;
+  margin: 0 auto;
+}
 }
 
 li a {
