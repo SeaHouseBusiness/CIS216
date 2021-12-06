@@ -49,6 +49,10 @@ nav {
   width: 170px;
 }
 
+.right { 
+			text-align: right; 
+		} 
+
 #pagelink { 
 	text-align: center; 
 	font-size: 1.5em;
