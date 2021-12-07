@@ -92,5 +92,5 @@ margin-left: 100px;
 img { border: 0; }
 
 #mugs { background-image: url(images/mugs.jpg);
-           background-size: 100% 100%;
+           background-size: 0px 100px 250px 180px;
 		   height: 260px; }
