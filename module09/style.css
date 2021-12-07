@@ -35,8 +35,11 @@ footer { background-color: #ccaa66;
 	   padding: 10px; }
 
 nav { 
-	float: left;
-	width: 90px;
+	font-weight: bold; 
+	 font-size: 1.5em;
+	 padding-top: 10px;
+	 float: left;
+	 width: 200px;
 }
 
 * {
