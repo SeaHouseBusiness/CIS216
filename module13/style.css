@@ -95,7 +95,7 @@ header, nav, main, footer { display: block; }
 
 img { border: 0; }
 
-.heroroad { background-image: url(/images/heroroad.jpg);
+#heroroad { background-image: url(/images/heroroad.jpg);
            background-size: 100% 100%;
 		   height: 250px; }
  
