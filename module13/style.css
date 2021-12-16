@@ -1,6 +1,6 @@
 * { box-sizing: border-box; }
 
-body { background-color: #ffffcc;
+body { background-color: #ccaa66;
 	  background-image: url(images/background.gif);
 	  color: #330000; 
 	  font-family: Tahoma, Verdana, sans-serif; }
@@ -54,7 +54,7 @@ nav ul { list-style-type: none;
 		   max-width: 1024px;
 		   box-shadow: 3px 3px 3px; }
 
-h2 { background-color: #ffffcc;
+h2 { background-color: #ccaa66;
 	font-size: 1.2em;
 	padding-left: 10px;
 	padding-bottom: 5px; }
