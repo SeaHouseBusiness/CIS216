@@ -5,12 +5,12 @@ grid-template-rows:1fr 2fr 3fr 4fr 5fr 6fr 7fr 8fr;
 }
 
 #black{
-background-color:"black";
+background-color:#000000;
 grid-column: 2/8, 8;
 grid-row: 1, 2, 3, 4, 5, 6, 7;
 }
 #white{
-background-color:"white";
+background-color:#FFFFFF;
 grid-column: 3/7, 4/7, 5/7, 6/7, 7/7;
 grid-row: 1;
 }
