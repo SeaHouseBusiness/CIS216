@@ -1,112 +1,108 @@
-*{box-sizing: border-box;
-}
+* { box-sizing: border-box; }
 
-header, nav, main, footer {display: block;}
-
-body { background-color: #FCEBB6;
+body { background-color: #ccaa66;
 	  background-image: url(images/background.gif);
-	  color: #221811; 
-	  font-family: Tahoma, Verdana, sans-serif;
-	  background-image; url(images/background.gif);
+	  color: #330000; 
+	  font-family: Tahoma, Verdana, sans-serif; }
+#logo {
+float: left;    
+ margin: 0 15px 0 0;
 }
 
-#wrapper { background-color: #2131814;
-		   width: 80%; 
-		   margin-left: auto;
-		   margin-right: auto;
-		   min-width: 900px;
-		   max-width: 1280px;
-		   box-shadow: 3px 3px 3px #666666; 
-}
-
-header { background-color: #D2B48C;
-	hieght: 150px;
-	background-image: url(images/javajamlogo.jpg);
-	background-repeat: no-repeat;
+h1 { background-color: #ccaa66;
+	margin: 0 auto;
+	color: #000000; 
+	font-size: 4em;
+	text-align: left; 
+	line-height: 200%; }
 	
-	
-h1 { 
-	padding-top: 45px;
-	padding-left: 220px;
-	font-size: 3em;
-}
-	
-nav { 
-	text-align: center;
-	font-weight: bold;
-	font-size: 1.5em;
-	padding-top: 10px;
-	float: left;
-	width: 200px;
-}	
-	
-nav a { text-decoration: none;
-}
-	
-nav a:link {color:#FEF6C2;
-}
-	
-nav a:visited {color:#D2B48C;
-}
-	
-nav a:hover {color: #CC9933;
-}
-	
-nav ul {list-style-type: none; 
-	padding-left: 0;
-}
-	
-footer { background-color: #D2B48C;
+footer { background-color: #ccaa66;
 	   color: #000000;
 	   font-size: small;
 	   font-style: italic; 
 	   text-align: center;
 	   line-height: 100%;
-	   padding-bottom: 10px;
-	border-top: 2px #221811 solid;
+	   padding: 10px; }
+
+nav { text-align: center; 
+     font-weight: bold; 
+	 font-size: 1.5em;
+	 padding-top: 10px;
+	 float: left;
+	 width: 200px;
 }
 
-main { padding-left: 0em;
-padding-right: 0em;
-padding-bottom: 2em;
-display:block;
-margin-left: 200px;
-padding-top:0px; 
-background-color: #FEF6C2;
-}
+nav a { text-decoration: none; }
+nav a:link { color: #FEF6C2; }
+nav a:visited { color: #D2B48C; }
+nav a:hover { color: #CC9933; }
+nav ul { list-style-type: none;
+       padding-left: 0; 
+} 
+
 	
-h4 {background: #d2B48C;
-font-size: 1.2em;
-padding-left: 10px;
-padding-bottom: 5px;
-text-transform: uppercase;
+#pagelink { 
+	text-align: center; 
+	font-size: 1.5em;
 }
+
+#wrapper { background-color: #231814;
+		   margin-left: auto;
+		   margin-right: auto;
+		   width: 80%; 
+		   min-width: 700px;
+		   max-width: 1024px;
+		   box-shadow: 3px 3px 3px; }
+
+h2 { background-color: #FEF6C2;
+	font-size: 1.2em;
+	padding-left: 10px;
+	padding-bottom: 5px; }
+
+
+h3 { background-color: #FEF6C2;
+	font-size: 1.2em;
+	padding-left: 10px;
+	padding-bottom: 5px; }
+
+h4 { background-color: #ccaa66;
+    font-size: 1.2em;
+	padding-left: 10px;
+	padding-bottom: 0;
+	text-transform: uppercase;
+	border-bottom: 1px solid #000033;
+	clear: left;
+}
+
+.floatleft { float: left;
+             padding-right: 20px;
+			 padding-bottom: 20px; 
+}
+
+main { padding: 0 0 2em 0;
+      margin-left: 200px;
+	  background-color: #FEF6C2;
+}
+
+main h2, main h3, main h4, main p, main div, main ul, main dl { padding-left: 3em; padding-right: 2em; }
+
+header, nav, main, footer { display: block; }
 
 .details { padding-left: 20%;
-padding-right: 20%; 
-overflow: auto;
-}
-		
-img { padding-left: 10px;
-padding-right 10px
+          padding-right: 20%;
+		  overflow: auto;
 }
 
-#heroroad {baground-image: url(images/heroroad.jpg);
-background-size: 100% 100%; height:250px;
-}
-	
-#heromugs {baground-image: url(images/heromugs.jpg);
-background-size: 100% 100%; height:250px;
-}
-	
-#heroguitar {baground-image: url(images/heroguitar.jpg);
-background-size: 100% 100%; height:250px;
-}
-	
-main h2, main h3, main h4, main p, main div, main ul, main dl{ padding-left: 3em;
-padding-right: 2em;
-}
+img { border: 0; }
 
-.floatleft {float: left; padding-right: 20px; padding-bottom: 20px;
-}
-	
+#heroroad { background-image: url("/images/heroroad.jpg");
+           background-size: 100% 100%;
+		   height: 250px; }
+ 
+#heromugs { background-image: url("/images/heromugs.jpg");
+           background-size: 100% 100%;
+		   height: 250px; }
+ 
+#heroguitar { background-image: url("/images/heroguitar.jpg");
+           background-size: 100% 100%;
+		   height: 250px; }
