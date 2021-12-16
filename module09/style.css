@@ -3,7 +3,9 @@
 body { background-color: #ccaa66;
 	  background-image: url(images/background.gif);
 	  color: #330000; 
-	  font-family: Tahoma, Verdana, sans-serif; }
+	  font-family: Tahoma, Verdana, sans-serif;
+}
+
 #logo {
 float: left;    
  margin: 0 15px 0 0;
