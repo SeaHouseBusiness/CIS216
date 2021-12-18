@@ -12,43 +12,43 @@ grid-template-areas: "red black black black black black black black"
                      "purple purple purple purple purple purple purple purple";
 }
 
-#black{
+.black{
 background-color:#000000;
 grid-area: "black";
 }
-#white{
+.white{
 background-color:#FFFFFF;
   grid-area: "white";
 }
-#red{
+.red{
 background-color: #FF0000;
   grid-area: "red";
 }
-#orange{
+.orange{
   background-color:#FFA500;
   grid-area: "orange";
 }
-#yellow{
+.yellow{
   background-color:#ffff00;
   grid-area: "yellow";
 }
-#green{
+.green{
   background-color:#008000;
   grid-area: "green";
 }
-#cyan{
+.cyan{
   background-color:#00FFFF;
   grid-area: "cyan";
 }
-#blue{
+.blue{
   background-color:#0000FF;
   grid-area: "blue";
 }
-#violet{
+.violet{
   background-color:#EE82EE;
   grid-area: "violet";
 }
-#purple{
+.purple{
   background-color:#800080;
   grid-area: "purple";
 }
